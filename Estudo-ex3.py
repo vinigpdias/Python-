@@ -1,11 +1,6 @@
-a = int
-b = int
-
+#Estudo ex: 3
 a = int(input("Digite um número para a: "))
 b = int(input("Digite um número para b: "))
-
-#print('{} / {2} = '.format(a))
-#print('{} / {2} = '.format(b))
 
 if a % 2 == 0 or b % 2 == 0:
     print("Ao menos um Par")
